@@ -1,13 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: 'github-actions'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
 
-  - package-ecosystem: "npm"
+  - package-ecosystem: 'npm'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
 
-  - package-ecosystem: "npm"
+  - package-ecosystem: 'npm'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'

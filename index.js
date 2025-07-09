@@ -144,7 +144,7 @@ const _logger = { log: (message) => console.log(`[NPXI] ${message}`) }
 
 /**
  * Imports a package using npx, checking if it is available locally first.
- * 
+ *
  * @param {string|string[]} pkg - The package name(s) to import, e.g. 'left-pad', '@scope/pkg' or an array of such strings.
  * @param {Options} [options] - Options for the import process.
  * @returns {Promise<T|T[]>} - A promise that resolves to the imported package(s). If multiple package names are given, resolves to an array of results.
