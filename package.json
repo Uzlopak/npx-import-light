@@ -1,6 +1,6 @@
 {
-  "name": "@probot/npx-import",
-  "version": "0.0.0",
+  "name": "npx-import-light",
+  "version": "1.0.0",
   "description": "Import modules and load them if needed deferred from npm",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,7 +19,11 @@
   "keywords": [],
   "author": "Aras Abbasi <aras.abbasi@gmail.com>",
   "license": "ISC",
-  "homepage": "https://github.com/probot/npx-import",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzlopak/npx-import-light.git"
+  },
+  "homepage": "https://github.com/uzlopak/npx-import-light",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@vitest/coverage-v8": "^3.2.2",
